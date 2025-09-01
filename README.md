@@ -47,6 +47,7 @@ Cloudflare Workers HTTP 反向代理
 | REGION_WHITELIST_REGEX | ×   |       | (JP)                                           | 地区白名单正则表达式          |
 | REGION_BLACKLIST_REGEX | ×   |       | (JP)                                           | 地区黑名单正则表达式          |
 | URL302                 | ×   |       | https://github.com/jonssonyan/cf-workers-proxy | 302 跳转地址            |
+| KEEP_PATH              | ×   | false | false                                          | 302 跳转时保留 path     |
 | DEBUG                  | ×   | false | false                                          | 开启调试                |
 
 ## 镜像仓库加速

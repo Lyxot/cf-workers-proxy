@@ -50,6 +50,7 @@ processing. Please use the specified file when deploying.
 | REGION_WHITELIST_REGEX | ×        |         | (JP)                                           | Regular expression for region whitelist     |
 | REGION_BLACKLIST_REGEX | ×        |         | (JP)                                           | Regular expression for region blacklist     |
 | URL302                 | ×        |         | https://github.com/jonssonyan/cf-workers-proxy | 302 Redirect address                        |
+| KEEP_PATH              | ×        | false   | false                                          | Keep path for URL redirection                         |
 | DEBUG                  | ×        | false   | false                                          | Enable DEBUG                                |
 
 ## Mirror repository proxy
